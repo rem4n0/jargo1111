@@ -205,10 +205,10 @@ if(message.content.startsWith(`${prefix}vote`)){
 **[Remix Bot Stats](https://discord.com/oauth2/authorize?client_id=792047204361175091&permissions=1076131920&scope=bot)**
 Hey My name is **Remix Bot** and My Work is to play Music
 **Owner Bot :**
-<@637299944939585576>
+<@683668693976350754>
 ●  
 **Name Bot :**
-Remix Bot ✨#9054 
+<@910671479576862721> 
 ●
 **Prefix Bot :**
 ${prefix}
