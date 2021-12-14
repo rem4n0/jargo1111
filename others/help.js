@@ -43,7 +43,7 @@ module.exports = {
 
  **| Links**
 __**[Support](https://discord.gg/gPP8GgQNfB)**____**[Invite](https://discord.com/api/oauth2/authorize?client_id=910671479576862721&permissions=8&scope=bot)**
-`)
+
    helpEmbed
    message.react("✅")
     return message.channel.send(helpEmbed).catch(console.error);
