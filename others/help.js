@@ -18,7 +18,7 @@ module.exports = {
     .setImage(`https://cdn.discordapp.com/attachments/832678897434230864/833341017125683200/standard_15.gif`)
     .setColor("#FC00FF")
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-    .setAuthor("Remix Bot ✨", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=1024")
+    .setAuthor("𝗕𝗘𝗦𝗧 𝗺𝘂𝘀𝗶𝗰✨", "https://images-ext-2.discordapp.net/external/_NOx5XTb-8-Fr5oR11oNPAAD7bfMyym5URJtCmZo4Og/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/910671479576862721/f1d551e059335ab31e9a0b8933f67a67.png")
     .setDescription(` 
  **| User Commands**
 > \`invite . invites . support . about   avatar . ping . prefix . uptime  . vote . se . serverinfo   servericon(icon) . userinfo(user)   emojify . emojiinfo(emoji) . social   membercount(count)\`
