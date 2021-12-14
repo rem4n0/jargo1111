@@ -199,7 +199,7 @@ if(message.content.startsWith(`${prefix}vote`)){
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("#FC00FF")
-    .setAuthor("Remix Bot ✨", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048")
+    .setAuthor("𝗕𝗘𝗦𝗧 𝗺𝘂𝘀𝗶𝗰✨", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048")
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
     .setDescription(`
 **[Remix Bot Stats](https://discord.com/oauth2/authorize?client_id=792047204361175091&permissions=1076131920&scope=bot)**
