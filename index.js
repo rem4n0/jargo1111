@@ -176,11 +176,9 @@ if(message.content.startsWith(`${prefix}vote`)){
     .setColor("#FC00FF")
     .setDescription (`
 
-<a:rast:813403866472251399> **[Invite](https://discord.com/oauth2/authorize?client_id=792047204361175091&permissions=1076131920&scope=bot)**
-<a:lodaing:813403104384647238>     
-<a:rast:813403866472251399> **[Support](https://discord.gg/geu89kZ7Rt)**
-<a:lodaing:813403104384647238>  
-<a:rast:813403866472251399> **[Vote](https://top.gg/bot/792047204361175091)**
+ **[Invite](https://discord.com/api/oauth2/authorize?client_id=902939809989922917&permissions=8&scope=bot)**
+ **[Support](https://discord.gg/gPP8GgQNfB)**  
+ ****
 
 `)
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
@@ -194,15 +192,15 @@ if(message.content.startsWith(`${prefix}vote`)){
 //An about announcement for everyone but no one knows so fine ^w^
   if(message.content.startsWith(`${prefix}about`)){
     //define saymsg
-    message.react("<a:emoji_83:779961659631730689>").catch(console.error);
+    message.react("").catch(console.error);
     const saymsg = message.content.slice(Number(prefix.length) + 5)
     //define embed
     const embed = new Discord.MessageEmbed()
     .setColor("#FC00FF")
-    .setAuthor("𝗕𝗘𝗦𝗧 𝗺𝘂𝘀𝗶𝗰✨", "https://cdn.discordapp.com/avatars/792047204361175091/c3c061050f56e58aa1f008de8b86dd26.png?size=2048")
+    .setAuthor("𝗕𝗘𝗦𝗧 𝗺𝘂𝘀𝗶𝗰✨", "https://images-ext-2.discordapp.net/external/_NOx5XTb-8-Fr5oR11oNPAAD7bfMyym5URJtCmZo4Og/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/910671479576862721/f1d551e059335ab31e9a0b8933f67a67.png")
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
     .setDescription(`
-**[Remix Bot Stats](https://discord.com/oauth2/authorize?client_id=792047204361175091&permissions=1076131920&scope=bot)**
+**[𝗕𝗘𝗦𝗧 𝗺𝘂𝘀𝗶𝗰✨stats](https://discord.com/api/oauth2/authorize?client_id=902939809989922917&permissions=8&scope=bot)**
 Hey My name is **Remix Bot** and My Work is to play Music
 **Owner Bot :**
 <@683668693976350754>
