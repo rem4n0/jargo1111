@@ -177,8 +177,7 @@ if(message.content.startsWith(`${prefix}vote`)){
     .setDescription (`
 
  **[Invite](https://discord.com/api/oauth2/authorize?client_id=902939809989922917&permissions=8&scope=bot)**
- **[Support](https://discord.gg/gPP8GgQNfB)**  
- ****
+ **[Support](https://discord.gg/gPP8GgQNfB)** 
 
 `)
     .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
