@@ -37,10 +37,10 @@ client.on(`ready`, () => {
       });
       
    
-     client.user.setActivity(`${PREFIX}help | ${process.version}`, { type: "LISTENING"});   
+     client.user.setActivity(`${PREFIX}help | ${process.version}`, { type: "PLAYING"});   
            
            
-     client.user.setActivity(`${client.guilds.cache.size} | Servers`, { type: "LISTENING"});
+     client.user.setActivity(`${client.guilds.cache.size} | Servers`, { type: "PLAYING"});
            
            
       }, (5000));    
