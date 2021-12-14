@@ -42,7 +42,7 @@ module.exports = {
 
 
  **| Links**
-__**[Support]https://discord.gg/gPP8GgQNfB()**__ **-** __[Vote]
+__**[Support](https://discord.gg/gPP8GgQNfB)**__ **-** __[Vote]
 e)**__ **-** __**[Invite](https://discord.com/api/oauth2/authorize?client_id=910671479576862721&permissions=8&scope=bot)**__ **-** __[Website]()**__
 `)
    helpEmbed
