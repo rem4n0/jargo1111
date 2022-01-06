@@ -358,7 +358,7 @@ client.on("message", message => {
       "https://cdn.discordapp.com/attachments/787757651752779826/800850948078698566/000_1-2.gif",
       "https://cdn.discordapp.com/attachments/820811352087330828/820954968793284658/image0.gif"
       "https://images-ext-2.discordapp.net/external/TUtt-JDt5Nl4hbaTyo72L3UPrEflgwgmqCF3xYcQ904/https/cdn.boob.bot/Gifs/18F8.gif"
-     ];
+    ];
 
     message.channel
       .send({
